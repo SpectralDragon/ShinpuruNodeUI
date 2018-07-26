@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059C3E5D1BA3E476003B740B /* SNNodesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C3E5C1BA3E476003B740B /* SNNodesContainer.swift */; };
+		059C3E691BA46655003B740B /* node_ui.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 059C3E681BA46655003B740B /* node_ui.jpeg */; };
+		3E7C176B1B957B0F000DC1E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C176A1B957B0F000DC1E4 /* AppDelegate.swift */; };
+		3E7C176D1B957B0F000DC1E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C176C1B957B0F000DC1E4 /* ViewController.swift */; };
+		3E7C17701B957B0F000DC1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7C176E1B957B0F000DC1E4 /* Main.storyboard */; };
+		3E7C17721B957B0F000DC1E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7C17711B957B0F000DC1E4 /* Assets.xcassets */; };
+		3E7C17751B957B0F000DC1E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E7C17731B957B0F000DC1E4 /* LaunchScreen.storyboard */; };
+		3E7C17801B957B0F000DC1E4 /* ShinpuruNodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C177F1B957B0F000DC1E4 /* ShinpuruNodeUITests.swift */; };
+		3E7C178B1B957B0F000DC1E4 /* ShinpuruNodeUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C178A1B957B0F000DC1E4 /* ShinpuruNodeUIUITests.swift */; };
+		3E7C179B1B957B93000DC1E4 /* SNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7C179A1B957B93000DC1E4 /* SNView.swift */; };
+		3EAAA9A31B996EF20004F869 /* DemoRenderers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAA9A21B996EF20004F869 /* DemoRenderers.swift */; };
+		3EAAA9A51B9D662A0004F869 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EAAA9A41B9D662A0004F869 /* DemoModel.swift */; };
+		3EE37A191B96CAFE00F87EE1 /* SNNodeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE37A181B96CAFE00F87EE1 /* SNNodeWidget.swift */; };
+		3EE37A1C1B9762FA00F87EE1 /* SNRelationshipCurvesLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE37A1B1B9762FA00F87EE1 /* SNRelationshipCurvesLayer.swift */; };
+		3EE37A1E1B97633B00F87EE1 /* ShinpuruNodeDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE37A1D1B97633B00F87EE1 /* ShinpuruNodeDataTypes.swift */; };
+		3EE37A201B97634700F87EE1 /* DemoClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE37A1F1B97634700F87EE1 /* DemoClasses.swift */; };
+		3EF1DC321BA884C90072057E /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF1DC311BA884C90072057E /* UIColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E7C177C1B957B0F000DC1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E7C175F1B957B0F000DC1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E7C17661B957B0F000DC1E4;
+			remoteInfo = ShinpuruNodeUI;
+		};
+		3E7C17871B957B0F000DC1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E7C175F1B957B0F000DC1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E7C17661B957B0F000DC1E4;
+			remoteInfo = ShinpuruNodeUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059C3E5C1BA3E476003B740B /* SNNodesContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SNNodesContainer.swift; path = shinpuru/SNNodesContainer.swift; sourceTree = "<group>"; };
+		059C3E681BA46655003B740B /* node_ui.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = node_ui.jpeg; path = assets/node_ui.jpeg; sourceTree = "<group>"; };
+		3E7C17671B957B0F000DC1E4 /* ShinpuruNodeUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinpuruNodeUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7C176A1B957B0F000DC1E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E7C176C1B957B0F000DC1E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E7C176F1B957B0F000DC1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E7C17711B957B0F000DC1E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E7C17741B957B0F000DC1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E7C17761B957B0F000DC1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7C177B1B957B0F000DC1E4 /* ShinpuruNodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinpuruNodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7C177F1B957B0F000DC1E4 /* ShinpuruNodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinpuruNodeUITests.swift; sourceTree = "<group>"; };
+		3E7C17811B957B0F000DC1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7C17861B957B0F000DC1E4 /* ShinpuruNodeUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShinpuruNodeUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7C178A1B957B0F000DC1E4 /* ShinpuruNodeUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinpuruNodeUIUITests.swift; sourceTree = "<group>"; };
+		3E7C178C1B957B0F000DC1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E7C179A1B957B93000DC1E4 /* SNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SNView.swift; path = shinpuru/SNView.swift; sourceTree = "<group>"; };
+		3EAAA9A21B996EF20004F869 /* DemoRenderers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoRenderers.swift; path = demoProject/DemoRenderers.swift; sourceTree = "<group>"; };
+		3EAAA9A41B9D662A0004F869 /* DemoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoModel.swift; path = demoProject/DemoModel.swift; sourceTree = "<group>"; };
+		3EE37A181B96CAFE00F87EE1 /* SNNodeWidget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SNNodeWidget.swift; path = shinpuru/SNNodeWidget.swift; sourceTree = "<group>"; };
+		3EE37A1B1B9762FA00F87EE1 /* SNRelationshipCurvesLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SNRelationshipCurvesLayer.swift; path = shinpuru/SNRelationshipCurvesLayer.swift; sourceTree = "<group>"; };
+		3EE37A1D1B97633B00F87EE1 /* ShinpuruNodeDataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShinpuruNodeDataTypes.swift; path = shinpuru/ShinpuruNodeDataTypes.swift; sourceTree = "<group>"; };
+		3EE37A1F1B97634700F87EE1 /* DemoClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DemoClasses.swift; path = demoProject/DemoClasses.swift; sourceTree = "<group>"; };
+		3EF1DC311BA884C90072057E /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = extensions/UIColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E7C17641B957B0F000DC1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7C17781B957B0F000DC1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7C17831B957B0F000DC1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059C3E671BA465ED003B740B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				059C3E681BA46655003B740B /* node_ui.jpeg */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		3E7C175E1B957B0F000DC1E4 = {
+			isa = PBXGroup;
+			children = (
+				3E7C17691B957B0F000DC1E4 /* ShinpuruNodeUI */,
+				3E7C177E1B957B0F000DC1E4 /* ShinpuruNodeUITests */,
+				3E7C17891B957B0F000DC1E4 /* ShinpuruNodeUIUITests */,
+				3E7C17681B957B0F000DC1E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E7C17681B957B0F000DC1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E7C17671B957B0F000DC1E4 /* ShinpuruNodeUI.app */,
+				3E7C177B1B957B0F000DC1E4 /* ShinpuruNodeUITests.xctest */,
+				3E7C17861B957B0F000DC1E4 /* ShinpuruNodeUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E7C17691B957B0F000DC1E4 /* ShinpuruNodeUI */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1DC2E1BA884970072057E /* extensions */,
+				059C3E671BA465ED003B740B /* assets */,
+				3EE37A151B961DFC00F87EE1 /* demoProject */,
+				3E7C17981B957B19000DC1E4 /* shinpuru */,
+				3E7C176A1B957B0F000DC1E4 /* AppDelegate.swift */,
+				3E7C176C1B957B0F000DC1E4 /* ViewController.swift */,
+				3E7C176E1B957B0F000DC1E4 /* Main.storyboard */,
+				3E7C17711B957B0F000DC1E4 /* Assets.xcassets */,
+				3E7C17731B957B0F000DC1E4 /* LaunchScreen.storyboard */,
+				3E7C17761B957B0F000DC1E4 /* Info.plist */,
+			);
+			path = ShinpuruNodeUI;
+			sourceTree = "<group>";
+		};
+		3E7C177E1B957B0F000DC1E4 /* ShinpuruNodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7C177F1B957B0F000DC1E4 /* ShinpuruNodeUITests.swift */,
+				3E7C17811B957B0F000DC1E4 /* Info.plist */,
+			);
+			path = ShinpuruNodeUITests;
+			sourceTree = "<group>";
+		};
+		3E7C17891B957B0F000DC1E4 /* ShinpuruNodeUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7C178A1B957B0F000DC1E4 /* ShinpuruNodeUIUITests.swift */,
+				3E7C178C1B957B0F000DC1E4 /* Info.plist */,
+			);
+			path = ShinpuruNodeUIUITests;
+			sourceTree = "<group>";
+		};
+		3E7C17981B957B19000DC1E4 /* shinpuru */ = {
+			isa = PBXGroup;
+			children = (
+				3E7C179A1B957B93000DC1E4 /* SNView.swift */,
+				3EE37A1D1B97633B00F87EE1 /* ShinpuruNodeDataTypes.swift */,
+				3EE37A181B96CAFE00F87EE1 /* SNNodeWidget.swift */,
+				3EE37A1B1B9762FA00F87EE1 /* SNRelationshipCurvesLayer.swift */,
+				059C3E5C1BA3E476003B740B /* SNNodesContainer.swift */,
+			);
+			name = shinpuru;
+			sourceTree = "<group>";
+		};
+		3EE37A151B961DFC00F87EE1 /* demoProject */ = {
+			isa = PBXGroup;
+			children = (
+				3EE37A1F1B97634700F87EE1 /* DemoClasses.swift */,
+				3EAAA9A21B996EF20004F869 /* DemoRenderers.swift */,
+				3EAAA9A41B9D662A0004F869 /* DemoModel.swift */,
+			);
+			name = demoProject;
+			sourceTree = "<group>";
+		};
+		3EF1DC2E1BA884970072057E /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3EF1DC311BA884C90072057E /* UIColorExtension.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E7C17661B957B0F000DC1E4 /* ShinpuruNodeUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7C178F1B957B0F000DC1E4 /* Build configuration list for PBXNativeTarget "ShinpuruNodeUI" */;
+			buildPhases = (
+				3E7C17631B957B0F000DC1E4 /* Sources */,
+				3E7C17641B957B0F000DC1E4 /* Frameworks */,
+				3E7C17651B957B0F000DC1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShinpuruNodeUI;
+			productName = ShinpuruNodeUI;
+			productReference = 3E7C17671B957B0F000DC1E4 /* ShinpuruNodeUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E7C177A1B957B0F000DC1E4 /* ShinpuruNodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7C17921B957B0F000DC1E4 /* Build configuration list for PBXNativeTarget "ShinpuruNodeUITests" */;
+			buildPhases = (
+				3E7C17771B957B0F000DC1E4 /* Sources */,
+				3E7C17781B957B0F000DC1E4 /* Frameworks */,
+				3E7C17791B957B0F000DC1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7C177D1B957B0F000DC1E4 /* PBXTargetDependency */,
+			);
+			name = ShinpuruNodeUITests;
+			productName = ShinpuruNodeUITests;
+			productReference = 3E7C177B1B957B0F000DC1E4 /* ShinpuruNodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E7C17851B957B0F000DC1E4 /* ShinpuruNodeUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7C17951B957B0F000DC1E4 /* Build configuration list for PBXNativeTarget "ShinpuruNodeUIUITests" */;
+			buildPhases = (
+				3E7C17821B957B0F000DC1E4 /* Sources */,
+				3E7C17831B957B0F000DC1E4 /* Frameworks */,
+				3E7C17841B957B0F000DC1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7C17881B957B0F000DC1E4 /* PBXTargetDependency */,
+			);
+			name = ShinpuruNodeUIUITests;
+			productName = ShinpuruNodeUIUITests;
+			productReference = 3E7C17861B957B0F000DC1E4 /* ShinpuruNodeUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E7C175F1B957B0F000DC1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Simon Gladman";
+				TargetAttributes = {
+					3E7C17661B957B0F000DC1E4 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 639663ETTA;
+						LastSwiftMigration = 0830;
+					};
+					3E7C177A1B957B0F000DC1E4 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0830;
+						TestTargetID = 3E7C17661B957B0F000DC1E4;
+					};
+					3E7C17851B957B0F000DC1E4 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0830;
+						TestTargetID = 3E7C17661B957B0F000DC1E4;
+					};
+				};
+			};
+			buildConfigurationList = 3E7C17621B957B0F000DC1E4 /* Build configuration list for PBXProject "ShinpuruNodeUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E7C175E1B957B0F000DC1E4;
+			productRefGroup = 3E7C17681B957B0F000DC1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E7C17661B957B0F000DC1E4 /* ShinpuruNodeUI */,
+				3E7C177A1B957B0F000DC1E4 /* ShinpuruNodeUITests */,
+				3E7C17851B957B0F000DC1E4 /* ShinpuruNodeUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E7C17651B957B0F000DC1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7C17751B957B0F000DC1E4 /* LaunchScreen.storyboard in Resources */,
+				3E7C17721B957B0F000DC1E4 /* Assets.xcassets in Resources */,
+				3E7C17701B957B0F000DC1E4 /* Main.storyboard in Resources */,
+				059C3E691BA46655003B740B /* node_ui.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7C17791B957B0F000DC1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7C17841B957B0F000DC1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7C17631B957B0F000DC1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059C3E5D1BA3E476003B740B /* SNNodesContainer.swift in Sources */,
+				3EE37A201B97634700F87EE1 /* DemoClasses.swift in Sources */,
+				3EAAA9A51B9D662A0004F869 /* DemoModel.swift in Sources */,
+				3EE37A191B96CAFE00F87EE1 /* SNNodeWidget.swift in Sources */,
+				3EE37A1E1B97633B00F87EE1 /* ShinpuruNodeDataTypes.swift in Sources */,
+				3E7C176D1B957B0F000DC1E4 /* ViewController.swift in Sources */,
+				3EE37A1C1B9762FA00F87EE1 /* SNRelationshipCurvesLayer.swift in Sources */,
+				3EAAA9A31B996EF20004F869 /* DemoRenderers.swift in Sources */,
+				3EF1DC321BA884C90072057E /* UIColorExtension.swift in Sources */,
+				3E7C176B1B957B0F000DC1E4 /* AppDelegate.swift in Sources */,
+				3E7C179B1B957B93000DC1E4 /* SNView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7C17771B957B0F000DC1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7C17801B957B0F000DC1E4 /* ShinpuruNodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7C17821B957B0F000DC1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7C178B1B957B0F000DC1E4 /* ShinpuruNodeUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7C177D1B957B0F000DC1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E7C17661B957B0F000DC1E4 /* ShinpuruNodeUI */;
+			targetProxy = 3E7C177C1B957B0F000DC1E4 /* PBXContainerItemProxy */;
+		};
+		3E7C17881B957B0F000DC1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E7C17661B957B0F000DC1E4 /* ShinpuruNodeUI */;
+			targetProxy = 3E7C17871B957B0F000DC1E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E7C176E1B957B0F000DC1E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7C176F1B957B0F000DC1E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E7C17731B957B0F000DC1E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7C17741B957B0F000DC1E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E7C178D1B957B0F000DC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E7C178E1B957B0F000DC1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E7C17901B957B0F000DC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 639663ETTA;
+				INFOPLIST_FILE = ShinpuruNodeUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.co.flexmonkey.ShinpuruNodeUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E7C17911B957B0F000DC1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 639663ETTA;
+				INFOPLIST_FILE = ShinpuruNodeUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.co.flexmonkey.ShinpuruNodeUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3E7C17931B957B0F000DC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShinpuruNodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.ShinpuruNodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShinpuruNodeUI.app/ShinpuruNodeUI";
+			};
+			name = Debug;
+		};
+		3E7C17941B957B0F000DC1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShinpuruNodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.ShinpuruNodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShinpuruNodeUI.app/ShinpuruNodeUI";
+			};
+			name = Release;
+		};
+		3E7C17961B957B0F000DC1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShinpuruNodeUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.ShinpuruNodeUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShinpuruNodeUI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3E7C17971B957B0F000DC1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShinpuruNodeUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.ShinpuruNodeUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShinpuruNodeUI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E7C17621B957B0F000DC1E4 /* Build configuration list for PBXProject "ShinpuruNodeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7C178D1B957B0F000DC1E4 /* Debug */,
+				3E7C178E1B957B0F000DC1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7C178F1B957B0F000DC1E4 /* Build configuration list for PBXNativeTarget "ShinpuruNodeUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7C17901B957B0F000DC1E4 /* Debug */,
+				3E7C17911B957B0F000DC1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7C17921B957B0F000DC1E4 /* Build configuration list for PBXNativeTarget "ShinpuruNodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7C17931B957B0F000DC1E4 /* Debug */,
+				3E7C17941B957B0F000DC1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7C17951B957B0F000DC1E4 /* Build configuration list for PBXNativeTarget "ShinpuruNodeUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7C17961B957B0F000DC1E4 /* Debug */,
+				3E7C17971B957B0F000DC1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E7C175F1B957B0F000DC1E4 /* Project object */;
+}
